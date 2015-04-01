@@ -1,3 +1,7 @@
+test_blog_crud:
+    resource: "@TestBlogCrudBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

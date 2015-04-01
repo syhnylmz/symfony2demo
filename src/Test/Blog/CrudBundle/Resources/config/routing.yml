@@ -1,0 +1,3 @@
+test_blog_crud_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: TestBlogCrudBundle:Default:index }
