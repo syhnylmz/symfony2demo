@@ -1,3 +1,8 @@
+test_blog_crud:
+    resource: "@TestBlogCrudBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
